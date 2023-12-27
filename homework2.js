@@ -18,8 +18,8 @@ let person3 = {
     }]
 }
 
-for (let i = 0; i < Object.keys(person3).length; i++) {
-        console.log(Object.keys(person3)[i])
+for (let i = 0; i < Object.values(person3).length; i++) {
+        console.log(Object.values(person3)[i])
 };
 
 //=======Exercise #2=========//
